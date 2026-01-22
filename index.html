@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Julian Thorne | Premium Healthcare Services</title>
+    <meta name="description"
+        content="Experience world-class personalized healthcare with Dr. Julian Thorne. Specialized in advanced internal medicine and preventive care.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="header">
+        <nav class="container">
+            <div class="logo">
+                <span class="logo-icon">✚</span>
+                <span class="logo-text">Dr. Thorne</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#locations">Locations</a></li>
+                <li><a href="#contact" class="btn btn-primary">Book Appointment</a></li>
+            </ul>
+            <div class="mobile-menu-toggle" id="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container hero-content">
+                <div class="hero-text animate-up">
+                    <span class="badge">Expert Healthcare</span>
+                    <h1>Personalized Medicine for Your Best Life</h1>
+                    <p>Dedicated to providing compassionate, evidence-based care tailored to your unique health journey.
+                        Your well-being is our highest priority.</p>
+                    <div class="hero-cta">
+                        <a href="#contact" class="btn btn-primary">Start Your Journey</a>
+                        <a href="#services" class="btn btn-secondary">Our Services</a>
+                    </div>
+                </div>
+                <div class="hero-image animate-fade">
+                    <div class="image-wrapper">
+                        <img src="assets/doctor-hero.png" alt="Dr. Julian Thorne" id="hero-img">
+                        <div class="experience-card">
+                            <span class="number">15+</span>
+                            <span class="text">Years of Excellence</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse"></div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container grid">
+                <div class="about-image animate-left">
+                    <img src="assets/clinic-interior.png" alt="Our Modern Clinic" id="about-img">
+                </div>
+                <div class="about-text animate-right">
+                    <span class="section-subtitle">Dedicated To Excellence</span>
+                    <h2>A Modern Patient-Centered Approach</h2>
+                    <p>Dr. Julian Thorne has spent over 15 years perfecting a holistic approach to internal medicine. By
+                        combining the latest medical advancements with deeply personal attention, we ensure every
+                        patient feels heard, understood, and empowered.</p>
+                    <ul class="features-list">
+                        <li><span>✓</span> Board Certified Specialist</li>
+                        <li><span>✓</span> Cutting-edge Diagnostics</li>
+                        <li><span>✓</span> Personalized Wellness Plans</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline">Learn More About Dr. Thorne</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="services">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Our Expertise</span>
+                    <h2>Comprehensive Health Solutions</h2>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card animate-up">
+                        <div class="service-icon">🩺</div>
+                        <h3>Preventive Care</h3>
+                        <p>Comprehensive health screenings and proactive wellness strategies to keep you at your best.
+                        </p>
+                    </div>
+                    <div class="service-card animate-up" style="animation-delay: 0.1s">
+                        <div class="service-icon">💊</div>
+                        <h3>Internal Medicine</h3>
+                        <p>Expert management of complex medical conditions with a focus on long-term vitality.</p>
+                    </div>
+                    <div class="service-card animate-up" style="animation-delay: 0.2s">
+                        <div class="service-icon">🧬</div>
+                        <h3>Diagnostic Services</h3>
+                        <p>State-of-the-art diagnostic testing and analysis for accurate and timely results.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="locations">
+            <div class="container">
+                <div class="locations-wrapper">
+                    <div class="locations-info animate-left">
+                        <span class="section-subtitle">Where to Find Us</span>
+                        <h2>Comfortable Clinics in Convenient Locations</h2>
+                        <div class="location-item">
+                            <h4>Downtown Medical Center</h4>
+                            <p>123 Wellness Way, Suite 400<br>Metropolis, NY 10001</p>
+                            <p><strong>Hours:</strong> Mon - Fri, 8:00 AM - 5:00 PM</p>
+                        </div>
+                        <div class="location-item">
+                            <h4>Heights Health Pavilion</h4>
+                            <p>456 Care Drive, Building B<br>Riverdale, NY 10463</p>
+                            <p><strong>Hours:</strong> Tue & Thu, 9:00 AM - 6:00 PM</p>
+                        </div>
+                    </div>
+                    <div class="locations-map animate-right">
+                        <div class="map-placeholder">
+                            <img src="assets/map-mockup.png" alt="Clinic Locations Map" id="map-img">
+                            <div class="map-pin pin-1"></div>
+                            <div class="map-pin pin-2"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <div class="contact-card animate-up">
+                    <div class="contact-grid">
+                        <div class="contact-form-side">
+                            <h2>Schedule a Consultation</h2>
+                            <p>Take the first step towards better health today.</p>
+                            <form id="appointment-form">
+                                <div class="form-group">
+                                    <input type="text" placeholder="Full Name" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" placeholder="Email Address" required>
+                                </div>
+                                <div class="form-group">
+                                    <select required>
+                                        <option value="" disabled selected>Select Service</option>
+                                        <option value="preventive">Preventive Care</option>
+                                        <option value="internal">Internal Medicine</option>
+                                        <option value="diagnostic">Diagnostics</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <textarea placeholder="Tell us about your needs" rows="4"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-block">Confirm Appointment</button>
+                            </form>
+                        </div>
+                        <div class="contact-info-side">
+                            <h3>Contact Details</h3>
+                            <div class="contact-detail">
+                                <div class="icon">📞</div>
+                                <div>
+                                    <p>Emergency Line</p>
+                                    <h4>(555) 123-4567</h4>
+                                </div>
+                            </div>
+                            <div class="contact-detail">
+                                <div class="icon">✉️</div>
+                                <div>
+                                    <p>Email Correspondence</p>
+                                    <h4>care@drthorne.com</h4>
+                                </div>
+                            </div>
+                            <div class="social-links">
+                                <a href="#">LinkedIn</a>
+                                <a href="#">Instagram</a>
+                                <a href="#">Healthgrades</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-text">Dr. Thorne</span>
+                    <p>Elevating the standard of personal healthcare.</p>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2026 Dr. Julian Thorne. All rights reserved.</p>
+                    <ul class="footer-links">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
