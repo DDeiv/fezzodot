@@ -145,6 +145,10 @@
                         <div class="contact-form-side">
                             <h2>Schedule a Consultation</h2>
                             <p>Take the first step towards better health today.</p>
+                            <div class="emergency-notice">
+                                <span>⚠️</span> <strong>Not for Emergencies.</strong> If you're experiencing a medical
+                                emergency, please call 911 or visit the nearest emergency room.
+                            </div>
                             <form id="appointment-form">
                                 <div class="form-group">
                                     <input type="text" placeholder="Full Name" required>
@@ -204,13 +208,96 @@
                 <div class="footer-bottom">
                     <p>&copy; 2026 Dr. Julian Thorne. All rights reserved.</p>
                     <ul class="footer-links">
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="javascript:void(0)" id="privacy-link">Privacy Policy</a></li>
+                        <li><a href="javascript:void(0)" id="terms-link">Terms of Service</a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </footer>
+
+    <!-- Privacy Policy Modal -->
+    <div id="privacy-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <h2>Privacy Policy</h2>
+                <p>Last Updated: January 23, 2026</p>
+
+                <section>
+                    <h3>1. Introduction</h3>
+                    <p>At Dr. Julian Thorne's practice, we are committed to protecting your personal and medical
+                        information. This Privacy Policy explains how we collect, use, and safeguard your data when you
+                        visit our website or use our services.</p>
+                </section>
+
+                <section>
+                    <h3>2. Information We Collect</h3>
+                    <p>We may collect personal information such as your name, email address, phone number, and medical
+                        history when you book an appointment or contact us through our website.</p>
+                </section>
+
+                <section>
+                    <h3>3. How We Use Your Information</h3>
+                    <p>Your information is used to:</p>
+                    <ul>
+                        <li>Schedule and manage your appointments.</li>
+                        <li>Communicate with you regarding your healthcare.</li>
+                        <li>Improve our services and website performance.</li>
+                        <li>Comply with legal and regulatory requirements (HIPAA).</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h3>4. Data Security</h3>
+                    <p>We implement industry-standard security measures to protect your data from unauthorized access,
+                        disclosure, or alteration. All patient records are handled with the highest level of
+                        confidentiality.</p>
+                </section>
+
+                <section>
+                    <h3>5. Your Rights</h3>
+                    <p>You have the right to access, correct, or request the deletion of your personal information.
+                        Please contact us at care@drthorne.com for any inquiries regarding your data.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- Terms of Service Modal -->
+    <div id="terms-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <h2>Terms of Service</h2>
+                <p>Last Updated: January 23, 2026</p>
+
+                <section>
+                    <h3>1. Acceptance of Terms</h3>
+                    <p>By accessing this website, you agree to be bound by these Terms of Service and all applicable
+                        laws and regulations.</p>
+                </section>
+
+                <section>
+                    <h3>2. Medical Disclaimer</h3>
+                    <p>The content on this website is for informational purposes only and does not constitute medical
+                        advice. Always seek the advice of a qualified healthcare provider for any medical concerns.</p>
+                </section>
+
+                <section>
+                    <h3>3. Appointment Cancellations</h3>
+                    <p>We require at least 24 hours' notice for appointment cancellations. Failure to do so may result
+                        in a cancellation fee.</p>
+                </section>
+
+                <section>
+                    <h3>4. Limitation of Liability</h3>
+                    <p>Dr. Julian Thorne and his practice shall not be liable for any damages arising out of the use or
+                        inability to use the materials on this website.</p>
+                </section>
+            </div>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
