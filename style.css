@@ -164,7 +164,7 @@ nav {
 
 /* Hero Section */
 #hero {
-    padding: 10rem 0 6rem;
+    padding: 12rem 0 6rem;
     background: radial-gradient(circle at top right, #f0f7f8 0%, #ffffff 50%);
     position: relative;
     min-height: 90vh;
