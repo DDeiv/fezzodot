@@ -750,7 +750,7 @@ footer {
 
     .contact-form-side,
     .contact-info-side {
-        padding: 2.5rem 2rem;
+        padding: 2.5rem 1.5rem;
     }
 }
 
@@ -760,16 +760,18 @@ footer {
     }
 
     h1 {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
     }
 
     h2 {
-        font-size: 1.8rem;
+        font-size: 1.7rem;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
     }
 
     .contact-form-side,
     .contact-info-side {
-        padding: 2rem 1.5rem;
+        padding: 2rem 1.25rem;
     }
 
     .contact-card {
@@ -779,5 +781,22 @@ footer {
     .emergency-notice {
         padding: 0.8rem 1rem;
         font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 360px) {
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    .contact-form-side,
+    .contact-info-side {
+        padding: 1.5rem 1rem;
+    }
+
+    input,
+    select,
+    textarea {
+        padding: 1rem;
     }
 }
