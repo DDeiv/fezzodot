@@ -728,6 +728,10 @@ footer {
 }
 
 @media (max-width: 768px) {
+    .container {
+        padding: 0 1.5rem;
+    }
+
     .nav-links {
         display: none;
     }
@@ -738,5 +742,42 @@ footer {
 
     #hero {
         padding: 8rem 0 4rem;
+    }
+
+    h2 {
+        font-size: 2.2rem;
+    }
+
+    .contact-form-side,
+    .contact-info-side {
+        padding: 2.5rem 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 1rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    .contact-form-side,
+    .contact-info-side {
+        padding: 2rem 1.5rem;
+    }
+
+    .contact-card {
+        border-radius: 20px;
+    }
+
+    .emergency-notice {
+        padding: 0.8rem 1rem;
+        font-size: 0.85rem;
     }
 }
